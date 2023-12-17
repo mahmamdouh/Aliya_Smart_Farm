@@ -1,8 +1,0 @@
-Name:Aliya
-Date:15/11
-Age:10
-Head Cnt:500
-Temp_UP:30
-Temp_LW:25
-Air_UP:30
-Air_LW:2

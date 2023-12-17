@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Adafruit_Python_DHT1" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/R and D/google sheets/gspread" vcs="Git" />
-  </component>
-</project>
