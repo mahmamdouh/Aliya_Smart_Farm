@@ -1,0 +1,11 @@
+GUI creator
+https://www.youtube.com/watch?v=s81_WnM1oJA
+
+
+https://www.hackster.io/kutluhan-aktar/raspberry-pi-adjustable-air-quality-detector-running-on-gui-b7fb75
+
+
+https://tutorials-raspberrypi.com/configure-and-read-out-the-raspberry-pi-gas-sensor-mq-x/
+
+
+

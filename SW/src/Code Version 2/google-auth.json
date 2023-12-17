@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "aliyasmartfarm",
+  "private_key_id": "db32b20676947866302625d8e9700323f36a46f8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDJZgFY1/9Gg9Lr\ncxX7PFxsUmjTMQwGvk45SIz90hvjqB2Gzg1fx2+pEFAVa5P1+ILgWMRAuXajnCXW\ntNF58won6+anKDm/VBy+bRAWQU0JxWCTaxqnIlV/mLtEAEhCU0pL+QqVpNsUZqQO\nW/dLvINOXxU/PZOYgdLw4ltRXEu3p61PXGXJT0HyW2VX59juR3PPSapWHpm5e0yc\nRxWbQAP8pI14MpZveQwB+0/Brsorb7bsLWd3MQolBjdUqHcRWD5oIpY9UfZaHUNG\nEtN6i/MazuDMUhnIG78WEsLpChXd1scW8L0XU8vz3rXSS79kgCZgcxUvl9R1aXNo\n8HGlyXaNAgMBAAECggEADyGEhuP9eBMF2O4lz+EOUY4UdY95B5WrI1cdzqEHOuCh\nzUO0UgaWD0XcOmvBa0ivLoNExVcZwHuGBT5DAa4+jFbHFrZpNkRvv2fKvl1MGCiV\n06WHlFh6Q3KaWSbLRv5iddhBURJYak021KRYrT49wDjZDA4IhXv1eOcMtM1iG+tR\nB1U1/XAw23nX6+YWr/ox4G5lrReOK1dTWk5v2mnGKVftN+mjLE8Wi+B4dPBqo9mJ\nKjYwAYvT9wYqUTNHgTDYw72SxH9mRAMywMQExvZkc3V4zs4jXffX/W8gvoGtYaKX\ndm5KGHjgWpRRzmSnDtGWKMO7Yz6xfu0STRuAWMQLAQKBgQD7vV1a2IjAOQyhaymt\nEEpXrh3s/7qmDw5e1OxXG5J63yYsvifCXruR6qs/Iq1Coumm+nWVfRHWEY02f4Jq\nvZnQT7FSe00ubNUwrJbSaXwkjdS9HbpI9gXSEI5MWwKXFMjWFh16savh+UtkFuV+\nD4eZWTFxGF5NdEkd+hfwVafXAQKBgQDMzorjBzoY+bq74RiOd94n3EQbDiJgDN/S\nslI/fOcTKckP+iTfUxvGB0xN2PIVWyaW7k6j6YTPWPenN4Of7Gpsw98WFBStVkvK\nEkNDwvJU1H9RfIAtDO4+lX4cVxOuL8fjj9g11xfF0e8bDOnWuNQoMiSo91yi08+d\nrkmNlRsLjQKBgFjAJSZ/Co9CTaqm/jVuddc9on1Il0QuMLHMPVpkdRruiyXhEGFd\nRqGl6yPCFPVWPCvLRyMhyeT/oRpij9cT6yNexTRAFjDU28BiSHX8DHFSs3rM/Tz1\nx42Mmq5es6YSBNA9Ub1M4D01x5eM3vG3heXRZTXrEmwaICD6Z/AqMpcBAoGAMIUF\n9j7yDpSrHnN3Q9k18i+GmvpAPo0OQXYpcgz/GVUe4wAZ2CZyP/neo9qvj0um2r7e\nNorOAelL0nueXTa/B8Fnim17cI0vK1IkSVtX2az19LIQE5wqnP0BgWlHqk57hne/\nexHX+e+AO+JVS59B87vdX4IqmhCf8PUnS7l1TMkCgYEAsT6D99CWWcBZYhCsWrUU\n5C9dKuRaf8BEuxtC4BhLRh/L1qsgrPhb3V7izWbnE4EXE1ITWPitDrXfugxHekVX\n/5MY95VQ6HF7xetNi4Mdii90FYg2/Pawnj2q0udEGAOuo1HhXzsv3ygLa4TU5Bl7\nPLxM1CkWY733rzF0609LFBs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "aliya-smart@aliyasmartfarm.iam.gserviceaccount.com",
+  "client_id": "108180349577223280930",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/aliya-smart%40aliyasmartfarm.iam.gserviceaccount.com"
+}

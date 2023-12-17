@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sf-application",
+  "private_key_id": "9fd005de35548546d156cba5629f69a4bc0e631c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDCycI7wt+/rLOR\nz08D7M7iUlGXp9v/smd6V/L52pMQfI7gn/UTrSo+nhp7WuvSe1gBNpOADBGDKFCc\n0qKZzktb9mpEDCMQ0gUHFQKCdWi75d90dbsoy637aPmhAjl9HDFgA86BuIbEdQPy\nM88COgQIi1N7DOX0009ujlQ9lpuBgZ/tpBvFXhghMUh2Bcin/m6nKmeadHcoAk9/\nM4V52iy0ZyZQZoI/bSWmMPjTXNETxnkwP195Q+xUjktasH7kHezh5+z/h4smq0/P\nGPcz/r5pZKiImrmXUH7Y24f/wgAT+Sv36k2E3jDbuOFCzF3upx49A5rvtkxbBhRf\n4jTufZlhAgMBAAECggEAFXCaqfRFp3XNYA+27UIr9VpFM9Gck/ThkeRLULf/tvFW\n0p+YnJ1TSIgjdw9nZIgCBEQrEQ2DAfI2iURf9FjyD4G8aZgCZhAP0Js95vkgWYow\nQcPRoWhl0oXX8CJsDHrFboGMwdd7MfWFRSvxrZeQKRaYzjL5vqxhklQlLpA8tpDK\nG744JNPAiukPYXwgG19TCwCds/12E1WCBbtaamAQocav/OFjqaLzPsLhASEkT2f9\npGtbZ6o0efN6vkUL+pW/rIl6SCgSxJH2DZJGMk56IJ1wFWsG14Npv5CfoThi/1bA\noHlpQXIAJNPhKJnD6ugW3MaattaHZQmqqtwzeF9ctwKBgQD0TXUyhOcIsxeZ2sXS\nWLBDlAGNHPN23CVOjK/N0l4JQNnU4tPmdAm+8Y4Pmufv7BEEVxsup9zisGqTBz9P\noANJI39rBO0qTXEtEBzAFe7J5ZzMfsPhMvAOru2MgKGcsQLp7L52gDN08e0OHn8d\nMi6lk0Ex8aSzcXOWw6VCvDSSBwKBgQDMHWB5vmJAJpYYoNbSm6B877fZYuYpBvnl\nmDMLryIsb4xVL/xhzfUNY9dats9cY5X52LKh0HC9KCR55FVew245jO5g853pgvsM\ntMnLLLsabnecn+sZrDcVixpj1v8prGXIjoPGBiqG3QBm+NSW7tRKJE3dU9ZJcztg\nJ0nn1L3/VwKBgBE+jnE8dFpm2dmgWapZXEfI4LsnOgA/1dpPj/FFUiHxE+80+6Qe\nuLljr5VmZ8zFqwXVaDPI4YyWy08JieyC7PhyqwHQ3TTJNp3prz3Xzn0t2f2NTSJO\nSCehLV9njQDUddIxRdhzgC5XDVabzHkxG53QYR+3YNrRvUj9EmM9ibBtAoGAH5C/\ndbRaj18oQSDGeAV3OTr9LJId0+RvSvFRm5H27/ZENnxYRGvMZMi26iFxSfFgpSW8\n4kdQ1//YPD1yclg4uI+x4a5rEkyeNGXU+yWsvbatqrwUaID4d81uRFhgV3qAtxZL\nDJmxg++zezkp7zl5/QlGPV8UuYEngoQw6rg8tbsCgYBnb6BCTyElnci7LYkg/NSa\nh5uGMeVweiXt+K/SiTssmR/fmWbaqeulCndLpIj/Cz8D/rRQDWJ4E2YHgr/zuVDS\njqF4WWFgyLlo1ZCU6uKS9fhZWtdokC/DglZUkR3oEvvLSCQnyEnmyGkgXCLYCEkW\nmkW0KjwTeWyN9/dnpN4E3A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "a-sf-mobile-app@sf-application.iam.gserviceaccount.com",
+  "client_id": "116668824553297108166",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/a-sf-mobile-app%40sf-application.iam.gserviceaccount.com"
+}

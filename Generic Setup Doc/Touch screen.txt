@@ -1,0 +1,18 @@
+https://www.youtube.com/watch?v=sbJpvRBKYZM
+to config touch mode 
+steps :
+1-
+>> sudo nano /boot/config.txt
+2- copy and past this lines at the bottom of file 
+
+remove black borders
+disable_overscan=1
+#set specific CVT mode
+hdmi_cvt 1024 600 60 6 0 0 0
+#set CVT as default
+hdmi_group=2
+hdmi_mode=87
+
+3- save and close
+4- reboot R pi 
+

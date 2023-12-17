@@ -1,0 +1,42 @@
+import httplib, urllib  
+import RPi.GPIO as GPIO
+import dht11
+import time
+import datetime
+
+sleep = 5 # how many seconds to sleep between posts to the channel  
+key = 'M94PHSULXXW8F8AZ'  # Write API key 
+  
+# initialize GPIO
+GPIO.setwarnings(True)
+GPIO.setmode(GPIO.BCM)
+
+# read data using pin 14
+instance = dht11.DHT11(pin=23)
+#Report Raspberry Pi internal temperature to Thingspeak Channel 
+result = instance.read()
+ if result.is_valid():
+	 print("Last valid input: " + str(datetime.datetime.now()))
+         print("Temperature: %-3.1f C" % result.temperature            print("Humidity: %-3.1f %%" % result.humidity)
+				
+def thermometer():  
+    while True:        
+        headers = {"Content-typZZe": "application/x-www-form-urlencoded","Accept": "text/plain"}  
+        conn = httplib.HTTPConnection("api.thingspeak.com:80")  
+        try:  
+            params = urllib.urlencode({'field1': result.temperature, 'key':key }) # channel name is field1 or field 2
+            conn.request("POST", "/update", params, headers)  
+            response = conn.getresponse()  
+            print result.humidity  
+            print result.temperature  
+            #print response.status, response.reason  
+            data = response.read()  
+            conn.close()  
+        except:  
+            print "connection failed"  
+        break  
+#sleep for desired amount of time  
+if __name__ == "__main__":  
+        while True:  
+                thermometer()  
+                time.sleep(sleep)

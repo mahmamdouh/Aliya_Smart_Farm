@@ -1,0 +1,86 @@
+import os 
+from DTC import GPC_DTC_Update,GET_GPC_Sts
+
+# Return CPU temperature as a character string                                      
+def getCPUtemperature():
+    res = os.popen('vcgencmd measure_temp').readline()
+    return(res.replace("temp=","").replace("'C\n",""))
+
+# Return RAM information (unit=kb) in a list                                        
+# Index 0: total RAM                                                                
+# Index 1: used RAM                                                                 
+# Index 2: free RAM                                                                 
+def getRAMinfo():
+    p = os.popen('free')
+    i = 0
+    while 1:
+        i = i + 1
+        line = p.readline()
+        if i==2:
+            return(line.split()[1:4])
+
+# Return % of CPU used by user as a character string                                
+def getCPUuse():
+    return(str(os.popen("top -n1 | awk '/Cpu\(s\):/ {print $2}'").readline().strip(\
+)))
+
+# Return information about disk space as a list (unit included)                     
+# Index 0: total disk space                                                         
+# Index 1: used disk space                                                          
+# Index 2: remaining disk space                                                     
+# Index 3: percentage of disk used                                                  
+def getDiskSpace():
+    p = os.popen("df -h /")
+    i = 0
+    while 1:
+        i = i +1
+        line = p.readline()
+        if i==2:
+            return(line.split()[1:5])
+			
+			
+def Check_PI_Status():
+    # CPU informatiom
+    CPU_temp = getCPUtemperature()
+    CPU_usage = getCPUuse()
+
+    # RAM information
+    # Output is in kb, here I convert it in Mb for readability
+    RAM_stats = getRAMinfo()
+    RAM_total = round(int(RAM_stats[0]) / 1000,1)
+    RAM_used = round(int(RAM_stats[1]) / 1000,1)
+    RAM_free = round(int(RAM_stats[2]) / 1000,1)
+    
+    Ram_percentage =(RAM_used /RAM_total)*100 
+    
+
+
+    # Disk information
+    DISK_stats = getDiskSpace()
+    DISK_total = DISK_stats[0]
+    DISK_free = DISK_stats[1]
+    DISK_perc = DISK_stats[3]
+    
+    DISK_total1 = DISK_total.replace("G","")
+    DISK_free1 = DISK_free.replace("G","")
+    Disk_Used =float(DISK_total1)-float(DISK_free1)
+    #print((Disk_Used/float(DISK_total.replace("G","")))*100)
+    disk_percentage =((Disk_Used/float(DISK_total.replace("G","")))*100)
+    #print(CPU_temp)
+    # check data DTC
+    if Ram_percentage > 90 :
+        GPC_DTC_Update("DTC_22")
+    else:
+        GPC_DTC_Update("DTC_22")
+    
+    if float(CPU_temp) > 70 :
+        GPC_DTC_Update("DTC_21")
+    else:
+        GPC_DTC_Update("DTC_21")
+      
+    if disk_percentage > 80 :
+        GPC_DTC_Update("DTC_23")
+    else:
+        GPC_DTC_Update("DTC_23")
+    
+    

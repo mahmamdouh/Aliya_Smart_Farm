@@ -1,2 +1,2 @@
-# Aliya_Smart_Farm
-New repository to change the code of Aliyasmart farm project
+# Smart-farm
+a raspberry pi project for smart farm projects

@@ -1,0 +1,12 @@
+# Writing all output to: D:\Aliya Company\One One\interface\interface between RL & RSPI.log
+set pad_wire_necking on
+bus diagonal
+fanout 8
+route 10
+clean 1
+route 10 16
+clean 1
+filter 2
+recorner diagonal
+status_file
+
