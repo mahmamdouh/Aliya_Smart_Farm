@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Sensor_H",
+      "appliesTo": "Sensor_H/Sensor_H.cpp",
+      "type": "launch"
+    }
+  ]
+}

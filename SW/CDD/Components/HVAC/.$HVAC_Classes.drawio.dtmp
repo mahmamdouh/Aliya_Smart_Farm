@@ -1,0 +1,80 @@
+<mxfile host="Electron" modified="2023-12-25T22:54:16.871Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="VG40CHY93qdVg84cqJpB" version="22.1.2" type="device">
+  <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
+    <mxGraphModel dx="2046" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q19N_18hLoCQJV63RkOV-1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;HVAC system&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="30" width="1030" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="q19N_18hLoCQJV63RkOV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="q19N_18hLoCQJV63RkOV-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="385" as="sourcePoint" />
+            <mxPoint x="445" y="209.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="545" y="180" />
+              <mxPoint x="510" y="180" />
+              <mxPoint x="510" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q19N_18hLoCQJV63RkOV-3" value="Get_current_Temp();" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;html=1;fillColor=#66B2FF;" parent="1" vertex="1">
+          <mxGeometry x="540" y="385" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q19N_18hLoCQJV63RkOV-4" value="Class :: Temprature" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="680" y="80" width="300" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="q19N_18hLoCQJV63RkOV-5" value="&lt;b&gt;Private:&lt;br&gt;&lt;/b&gt;Double IndoorCurrentTemprature;&lt;br&gt;Double OutdoorCurrentTemprature;&lt;br&gt;Get_Indoor_Temprature();&lt;br&gt;Get_Outdoor_Temprature();&lt;br&gt;Temp_equilizer();&lt;br&gt;&lt;br&gt;&lt;b&gt;Public&lt;/b&gt;:&lt;br&gt;Get_current_Temp();" style="text;html=1;strokeColor=none;fillColor=#CCFF99;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="q19N_18hLoCQJV63RkOV-4" vertex="1">
+          <mxGeometry y="29" width="300" height="201" as="geometry" />
+        </mxCell>
+        <mxCell id="q19N_18hLoCQJV63RkOV-6" value="Class :: HVAC" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="170" y="80" width="320" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="q19N_18hLoCQJV63RkOV-7" value="&lt;b&gt;Private&lt;/b&gt;:&lt;br&gt;Vector &amp;lt;string&amp;gt;:: Heating_devices;&lt;br&gt;Vector &amp;lt;string&amp;gt;:: Cooling_devices;&lt;br&gt;Vector &amp;lt;string&amp;gt;:: Heating_devices_sts;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Vector &amp;lt;string&amp;gt;:: Cooling_devices_sts;&lt;br&gt;Set_Heating_ON(Device);&lt;br&gt;Set_Heating_OFF(Device);&lt;br&gt;Set_Colling_ON(Device);&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Set_Colling_OFF(Device);&lt;br&gt;&lt;b&gt;Public&lt;/b&gt;:&lt;br&gt;Get_HVAC_sts();&lt;br&gt;HVAC_Task();" style="text;html=1;strokeColor=none;fillColor=#CCFF99;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="q19N_18hLoCQJV63RkOV-6" vertex="1">
+          <mxGeometry y="29" width="320" height="201" as="geometry" />
+        </mxCell>
+        <mxCell id="q19N_18hLoCQJV63RkOV-8" value="Get_HVAC_sts();" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;html=1;fillColor=#66B2FF;" parent="1" vertex="1">
+          <mxGeometry x="130" y="350" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q19N_18hLoCQJV63RkOV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="q19N_18hLoCQJV63RkOV-5" target="q19N_18hLoCQJV63RkOV-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q19N_18hLoCQJV63RkOV-10" value="HVAC_Task();" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;html=1;fillColor=#66B2FF;" parent="1" vertex="1">
+          <mxGeometry x="130" y="460" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q19N_18hLoCQJV63RkOV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="q19N_18hLoCQJV63RkOV-7" target="q19N_18hLoCQJV63RkOV-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q19N_18hLoCQJV63RkOV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="q19N_18hLoCQJV63RkOV-7" target="q19N_18hLoCQJV63RkOV-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="385" />
+              <mxPoint x="310" y="385" />
+              <mxPoint x="310" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q19N_18hLoCQJV63RkOV-13" value="&lt;font style=&quot;font-size: 36px;&quot; color=&quot;#ffffff&quot;&gt;Application Wrapper&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="70" y="710" width="950" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q19N_18hLoCQJV63RkOV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.052;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="q19N_18hLoCQJV63RkOV-8" target="q19N_18hLoCQJV63RkOV-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="129" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q19N_18hLoCQJV63RkOV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.103;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="q19N_18hLoCQJV63RkOV-10" target="q19N_18hLoCQJV63RkOV-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="178" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q19N_18hLoCQJV63RkOV-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.587;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="q19N_18hLoCQJV63RkOV-3" target="q19N_18hLoCQJV63RkOV-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

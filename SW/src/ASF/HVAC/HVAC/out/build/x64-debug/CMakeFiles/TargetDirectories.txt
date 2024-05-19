@@ -1,0 +1,5 @@
+C:/Users/mahmo/OneDrive/Desktop/Smart_Farm/Aliya_Smart_Farm/SW/src/ASF/HVAC/HVAC/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/mahmo/OneDrive/Desktop/Smart_Farm/Aliya_Smart_Farm/SW/src/ASF/HVAC/HVAC/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/mahmo/OneDrive/Desktop/Smart_Farm/Aliya_Smart_Farm/SW/src/ASF/HVAC/HVAC/out/build/x64-debug/HVAC/CMakeFiles/HVAC.dir
+C:/Users/mahmo/OneDrive/Desktop/Smart_Farm/Aliya_Smart_Farm/SW/src/ASF/HVAC/HVAC/out/build/x64-debug/HVAC/CMakeFiles/edit_cache.dir
+C:/Users/mahmo/OneDrive/Desktop/Smart_Farm/Aliya_Smart_Farm/SW/src/ASF/HVAC/HVAC/out/build/x64-debug/HVAC/CMakeFiles/rebuild_cache.dir

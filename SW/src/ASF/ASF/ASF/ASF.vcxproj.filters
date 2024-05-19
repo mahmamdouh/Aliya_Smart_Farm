@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DIAG">
+      <UniqueIdentifier>{8182417f-0352-4075-903b-a1672ba84102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HVAC">
+      <UniqueIdentifier>{1ce44eee-af93-4ba6-9018-3077ea2ea005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sensor_H">
+      <UniqueIdentifier>{0ed39086-3cc6-478f-8344-1fd3c175bc61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DIAG">
+      <UniqueIdentifier>{335b669b-6659-4261-9a60-b132cd63d527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HVAC">
+      <UniqueIdentifier>{b49bb844-3f6d-4400-875f-a950d085538f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sensor_H">
+      <UniqueIdentifier>{4869c35a-6165-4ae3-b574-a6ee6b171d43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ASF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Diag_H.cpp">
+      <Filter>Source Files\DIAG</Filter>
+    </ClCompile>
+    <ClCompile Include="HVAC.cpp">
+      <Filter>Source Files\HVAC</Filter>
+    </ClCompile>
+    <ClCompile Include="Sensor_H.cpp">
+      <Filter>Source Files\Sensor_H</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DIAG_H.h">
+      <Filter>Header Files\DIAG</Filter>
+    </ClInclude>
+    <ClInclude Include="HVAC.h">
+      <Filter>Header Files\HVAC</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensor_H.h">
+      <Filter>Header Files\Sensor_H</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+
+	
+Diag.o: Diag.cpp Diag.h
+	g++ -c Diag.cpp Diag.h
+	
+clean:
+	rm *.o
+	
+target: dependencies
+	actions

@@ -1,0 +1,10 @@
+
+	
+ASF.o: ASF.cpp
+	g++ -c ASF.cpp	
+	
+clean:
+	rm *.o
+	
+target: dependencies
+	actions

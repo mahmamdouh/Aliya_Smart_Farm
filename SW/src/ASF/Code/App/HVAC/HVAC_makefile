@@ -1,0 +1,14 @@
+
+#------------------------- includes -------------------------------------
+#Include of Sensor handler
+Sensor_H_INC_DIR = ../../BSW/Sensor_Stack
+
+
+HVAC.o: HVAC.cpp HVAC.h
+	g++ -c HVAC.cpp HVAC.h -I $(Sensor_H_INC_DIR)
+	
+clean:
+	rm *.o
+	
+target: dependencies
+	actions
